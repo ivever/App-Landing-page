@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="main">
+       <header id="header">
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Landing</a>
+                    <div class="left">
+                        <a href="#news">Home</a>
+                        <a href="#contact">Features</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Reviews 
+                                 <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div> 
+                                <a href="#about">Pricing</a>
+                                <a href="#about">FAQ</a>
+                                <a href="#about" id="get-started">Get Started</a>
+                    </div>
+                                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </header>
+        <div #="topic-container">
+            <div class="topic">
+                <h2>Fly makes you faster</h2>
+                <p>New free template by Ivever Timothy. For more Templates visit <a href="https://github.com/ivever" target="_blank" style="color: whitesmoke;">github.com/ivever</a>. Lorem ipsum doror sit amet. Lorem ipsum.</p>
+                <a class="btn" href="#">SEE PRICING</a>
+            </div>
+        </div>
+        <div id="login-container">
+            <form action="" class="box">
+                <h2 style="text-align: center;">Sign up for free</h2>
+                <input type="text" class="name" placeholder="Full name" required>
+                <input type="email" class="email" placeholder="Email" required>
+                <input type="email" class="email" placeholder="Email" required>
+                <select id="dropdown" name="Type" class="type" required="">
+                    <option disabled="" selected="" value="">Type</option>
+                    <option value="Sesame">Lorem ipsum</option>
+                    <option value="potato">Lorem ipsum</option>
+                    <option value="pretzel">Lorem ipsum</option>
+                </select>
+                <input type="submit" id="regbtn" value="Register">
+            </form>
+        </div>
+        <div class="features-container">
+            <div class="container">
+                <div class="app">
+                    <h3>FEATURES</h3>
+                    <h4>App Features</h4>
+                </div>
+                <div class="wrapper">
+                    <div class="features">
+                        <i class="fa fa-3x fa-book"></i>
+                        <h4>Minimal Design</h4>
+                        <p>Far Far away, behind the world</p>
+                    </div>
+                    <div class="features">
+                        <i class="fa fa-3x fa-flash"></i>
+                        <h4>Fast Loading</h4>
+                        <p>Far Far away, behind the world</p>
+                    </div>
+                    <div class="features">
+                        <i class="fa fa-3x fa-road"></i>
+                        <h4>Unlimited possibilities</h4>
+                        <p>Far Far away, behind the world</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy Template by Ivever Timothy</p>
+        </footer>
+   </div>
+
+   <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</body>
+</html>
