@@ -162,14 +162,16 @@ body {
 }
 
 #login-container {
-    width: 300px;
-    max-width: 270px;
+    text-align: center;
+    width: 400px;
+    max-width: 300px;
     background-color: rgb(245, 236, 219);
-    border-radius: 5px;
+    border-radius: 30px;
     position: absolute;
     right: 200px;
     top: 100px;
-    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+                inset 3px 3px 10px rgba(0, 0, 0, .2);
 }
 
 .box {
@@ -180,12 +182,39 @@ body {
     font-family: inherit;
 }
 
-.name, .email, .type {
-    background-color: rgb(221, 213, 213);
-    color: rgb(27, 26, 26);
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+.box i {
+  transform: translateX(35px);
+  color: rgb(59, 59, 59);
+}
+
+.box input {
+  outline: none;
+  border-radius: 30px;
+  border: 1px solid rgb(17, 17, 240);
+  width: 200px;
+  height: 30px;
+  background: transparent;
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  transition: all .4s;
+}
+
+.box select {
+  outline: none;
+  border-radius: 30px;
+  border: 1px solid rgb(17, 17, 240);
+  width: 200px;
+  height: 30px;
+  background: transparent;
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-right: 5px;
+  font-size: 16px;
+  transition: all .4s
 }
 
 #regbtn {
