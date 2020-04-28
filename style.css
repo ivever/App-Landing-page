@@ -175,46 +175,46 @@ body {
 }
 
 .box {
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: inherit;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: inherit;
 }
 
 .box i {
-  transform: translateX(35px);
-  color: rgb(59, 59, 59);
+transform: translateX(35px);
+color: rgb(59, 59, 59);
 }
 
 .box input {
-  outline: none;
-  border-radius: 30px;
-  border: 1px solid rgb(17, 17, 240);
-  width: 200px;
-  height: 30px;
-  background: transparent;
-  margin-top: 10px;
-  padding-left: 40px;
-  padding-right: 20px;
-  margin-right: 20px;
-  font-size: 16px;
-  transition: all .4s;
+outline: none;
+border-radius: 30px;
+border: 1px solid rgb(17, 17, 240);
+width: 200px;
+height: 30px;
+background: transparent;
+margin-top: 10px;
+padding-left: 40px;
+padding-right: 20px;
+margin-right: 20px;
+font-size: 16px;
+transition: all .4s;
 }
 
 .box select {
-  outline: none;
-  border-radius: 30px;
-  border: 1px solid rgb(17, 17, 240);
-  width: 200px;
-  height: 30px;
-  background: transparent;
-  margin-top: 10px;
-  padding-left: 40px;
-  padding-right: 20px;
-  margin-right: 5px;
-  font-size: 16px;
-  transition: all .4s
+outline: none;
+border-radius: 30px;
+border: 1px solid rgb(17, 17, 240);
+width: 200px;
+height: 30px;
+background: transparent;
+margin-top: 10px;
+padding-left: 40px;
+padding-right: 20px;
+margin-right: 5px;
+font-size: 16px;
+transition: all .4s
 }
 
 #regbtn {
